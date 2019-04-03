@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+      .skip {
+        font-size: 18px;
+        color: white;
+        background-color:#0f1919;
+       
+        padding: 13px;
+        border-radius: 13px;
+        position: absolute;
+        top: 2%;
+        right: 0;
+        transform: translateX(-18%);
+        z-index: 30000;
+        cursor: pointer;
+        font-family: sans-serif;
+        opacity: 0.5;
+        transition: all 0.7s;
+
+      }
+      .skip:hover {
+        opacity: 1;
+        transition: all 0.7s;
+        transform: translateX(-14%);
+
+      }
+    </style>
+  </head>
+  <body>
+    <iframe
+      src="https://h5.veer.tv/player?vid=259844&utm_medium=embed"
+      frameborder="0"
+      allowfullscreen="true"
+      width="560"
+      height="315"
+    ></iframe>
+
+    <div class="skip">Skip &rarr;</div>
+  </body>
+</html>
